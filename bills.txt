@@ -1,0 +1,3 @@
+Insurance | 51 | 1
+Rent | 950 | 3
+Phone | 21 | 6

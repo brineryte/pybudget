@@ -1,0 +1,4 @@
+Gas | 200
+Groceries | 500
+Eating-Out | 100
+Clothes | 50
