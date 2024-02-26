@@ -1,3 +1,13 @@
-Insurance | 51 | 1
-Rent | 950 | 3
-Phone | 21 | 6
+Geico | 118 | 1
+Rent | 985 | 3
+Google-Fi | 109 | 2
+PPL | 150 | 7
+Brian-Discover | 170 | 9
+Truple | 16 | 11
+AES | 10 | 15
+Renters | 12 | 17
+Peacock | 12 | 18
+Upward | 70 | 27
+JetBrains | 18 | 28
+MCDS | 140 | 28
+Spotify | 12 | 29

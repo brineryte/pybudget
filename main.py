@@ -17,7 +17,7 @@ def main(startDate):
     # get bills for pay period
     currentBills = getBillsInPayPeriod(billLines, days)
     # sum income for period
-    totalIncome = incomeLines[0][1]
+    totalIncome = sum([line[1] for line in incomeLines])
     # sum bills within pay period
     totalBills = sumCurrentBills(currentBills)
     totalExpenses = sumCurrentExpenses(expenses)
@@ -54,7 +54,8 @@ def getIncome():
         for line in file:
             tempLine = list(line.replace(' ', '').split('|'))
             tempLine[1] = int(tempLine[1])
-            tempLine[2] = datetime.strptime(tempLine[2], '%Y-%m-%d').date()
+            start = tempLine[2].strip()
+            tempLine[2] = datetime.strptime(str(start), '%Y-%m-%d').date()
             incomeLines.append(tempLine)
     return incomeLines
 
